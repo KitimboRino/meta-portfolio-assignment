@@ -69,7 +69,7 @@ const Header = () => {
               {socials.map((social) => (
                 <Box key={social.url}>
                   <a href={social.url} isExternal>
-                    <FontAwesomeIcon icon={social.icon} size="2px" />
+                    <FontAwesomeIcon icon={social.icon} size="2x" />
                   </a>
                 </Box>
               ))}

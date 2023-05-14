@@ -14,7 +14,7 @@ const Footer = () => {
           maxWidth="1024px"
           height={16}
         >
-          <p>Rino Kitimbo • © 2022</p>
+          <p>Rino Kitimbo • © 2023</p>
         </Flex>
       </footer>
     </Box>

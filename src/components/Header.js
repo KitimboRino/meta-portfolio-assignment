@@ -68,9 +68,9 @@ const Header = () => {
             <HStack spacing={8}>
               {socials.map((social) => (
                 <Box key={social.url}>
-                  <Link href={social.url} isExternal>
-                    <FontAwesomeIcon icon={social.icon} size="lg" />
-                  </Link>
+                  <a href={social.url} isExternal>
+                    <FontAwesomeIcon icon={social.icon} size="2px" />
+                  </a>
                 </Box>
               ))}
             </HStack>
@@ -79,10 +79,10 @@ const Header = () => {
             <HStack spacing={8}>
               {/* Add links to Projects and Contact me section */}
               <Box>
-                <Text onClick={handleClick('projects')}>Projects</Text>
+                <a onClick={handleClick('projects')}>Projects</a>
               </Box>
               <Box>
-                <Text onClick={handleClick('projects')}>Contact me</Text>
+                <a onClick={handleClick('contactme')}>Contact Me</a>
               </Box>
             </HStack>
           </nav>

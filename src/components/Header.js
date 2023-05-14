@@ -68,7 +68,7 @@ const Header = () => {
             <HStack spacing={8}>
               {socials.map((social) => (
                 <Box key={social.url}>
-                  <a href={social.url} isExternal>
+                  <a href={social.url}>
                     <FontAwesomeIcon icon={social.icon} size="2x" />
                   </a>
                 </Box>
